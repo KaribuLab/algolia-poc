@@ -1,0 +1,17 @@
+{
+  "name": "algolia-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "load": "node load.js",
+    "search": "node search.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^4.22.1",
+    "contentful": "^10.6.21",
+    "dotenv": "^16.4.1"
+  }
+}
